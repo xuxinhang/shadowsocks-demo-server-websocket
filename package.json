@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ws": "^7.2.1"
   },
   "devDependencies": {},
   "scripts": {
