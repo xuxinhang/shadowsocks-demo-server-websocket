@@ -1,0 +1,36 @@
+
+Shadowsocks Demo Server
+======================
+
+A simple demo about the server using the shadowsocks protocol.
+
+
+The server using Shadowsocks protocol over Socket (TCP)
+-------------------------------------------------------
+
+It is compatible with the Shadowsocks' Python implement, whose `local.py` works as the client.
+
+Run this server:
+[shell]
+----
+node index.js
+----
+
+Run Shadowsocks `local` :
+
+Run the `local.py` of branch 'master' @ shadowsocks resp as a client. Or the `local` of the shadowsocks lib on pip.
+
+
+
+The server using Shadowsocks protocol over WebSocket
+----------------------------------------------------
+
+Run this server:
+
+----
+node wss.js
+----
+
+Use V2Ray as the client:
+
+Set this server as the outbound target of V2Ray, and then use V2Ray as the client.
